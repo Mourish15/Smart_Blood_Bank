@@ -1,0 +1,74 @@
+
+body {
+    background: #f5f7fb;
+    font-family: Arial, sans-serif;
+    color: #242936;
+}
+
+.navbar {
+    background: #a90024;
+}
+
+.hero {
+    background: linear-gradient(135deg, #a90024, #e63950);
+    color: white;
+    padding: 45px;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(100, 0, 20, 0.15);
+}
+
+.hero h1 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+}
+
+.feature-card {
+    height: 100%;
+    min-height: 220px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.feature-icon {
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+.btn-danger {
+    background-color: #b00027;
+    border-color: #b00027;
+}
+
+.btn-danger:hover {
+    background-color: #85001d;
+    border-color: #85001d;
+}
+
+#workspace {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    overflow-x: auto;
+}
+
+footer {
+    color: #777;
+}
+
+@media (max-width: 576px) {
+    .hero {
+        padding: 25px;
+    }
+}
